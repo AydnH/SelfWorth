@@ -34,3 +34,16 @@ Self Worth-
 -display value with explination.
 -Sell their personal information to advertising companies?-
 -profit
+
+Design -
+	-colorScheme
+		#0B0C10 - dark base
+		#1F2833 - lighter dark
+		#C5C6C7 - Light grey for text
+		#66FCF1 - Bright Cyan for highlights and borders
+		#45A29E - Dark Cyan for detailing and filler colours
+	-easy read
+	-simple layout
+		-drop nav
+		-as much on home page as possible
+		-selection process for calcsC
