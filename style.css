@@ -1,14 +1,12 @@
 body, html, p {
-    position: center;
+    overflow: auto;   
     background-color: #0B0C10;
     text-align: center;
     height: 100%;
     width: 100%;    
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font:  15px/1.8 "Lato", sans-serif;
     color: #C5C6C7;
-    font-size: 100%;
-    
-
+    font-size: 100%; 
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -21,10 +19,8 @@ body, html, p {
 
 }
 .bgimg-1 {
-
     background-image: url("img.jpg");
-    width: 100%;
-    min-height: 50%;    
+    width: 95%;      
     color: #0B0C10;
     background-color:white;
     position: center;    
@@ -33,10 +29,8 @@ body, html, p {
 }
 
 .bgimg-2 {
-
     background-image: url("img2.jpg");
-    width: 100%;
-    min-height: 25%;
+    width: 95%;
     position:center;
     color:#0B0C10;
     background-color:#282E34;   
@@ -46,8 +40,7 @@ body, html, p {
 
 .bgimg-3 {
     background-image: url("img3.jpg");
-    width: 100%;
-    min-height: 25%;    
+    width: 95%;        
     position:center;
     color:#0B0C10;
     background-color:#282E34;    
@@ -56,6 +49,7 @@ body, html, p {
 }
 
 .caption { 
+    width: 85%;
     top: 50%;
     text-align: center;
     color: #000;
@@ -63,11 +57,8 @@ body, html, p {
 }
 
 .caption span.block {
-    justify-content: center;
     position: center;
     height: 100%;
-    max-height: 400px;
-    min-height: 50px;
     background-color: #0B0C10;
     color: #C5C6C7;
     padding: 18px;
@@ -77,24 +68,29 @@ body, html, p {
     border-color: #66FCF1;
     border-width: 2px;
 }
-
-h3 {
+.fontSmall h3{
+    font: "lato";
+    font-size: 85%;
+    letter-spacing: 5px;
+    position: center;
+}
+.fontSmall{
     position: center;
     text-align:center;
-    letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
+    font-size: 80%;
     color: #C5C6C7;
-    
 }
-.flexFont{
 
+.flexFont{
+    position: center;
+    text-align: center;
     font-size: 100%;
     margin: 1em;
     color: #1F2883;
 }
 .block{
-    position: center;
+    position: relative;
     background-color:transparent;
     font-size:100%;
     color: #0B0C10;
